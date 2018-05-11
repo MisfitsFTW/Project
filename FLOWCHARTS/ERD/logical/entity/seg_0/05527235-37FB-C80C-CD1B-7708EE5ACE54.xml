@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05527235-37FB-C80C-CD1B-7708EE5ACE54" name="PHONE">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:41:19 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PhoneId" id="69EE688B-97D4-8DF3-BB4C-D0DBEA37F06C">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:41:33 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="3EF93E3D-BED5-B0AE-F634-58F519E82B09">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:42:58 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="7C4773E7-CC64-7549-14BE-C00C68C8AAA6">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:56:05 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ConditionID" id="42A55A67-035E-EBAA-AA4B-FC23E08281D9">
+<createdBy>b42775</createdBy>
+<createdTime>2018-04-19 12:46:34 UTC</createdTime>
+<generatorID>B27896DB-A670-E75B-785B-88552A6EE1B9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<referedAttribute>E0E4EA13-3C37-3F5D-65E8-DD8D35827E05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BrandId" id="0A709016-7A65-28C5-7CE0-9FECDB60794C">
+<createdBy>b42775</createdBy>
+<createdTime>2018-04-19 12:50:08 UTC</createdTime>
+<generatorID>52A2788A-80F2-C1EE-91DB-010FB0F56D88</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<referedAttribute>1EC02CF3-8AC0-B141-AFA5-6A7919B8A411</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Image" id="B8F5DF47-9927-27BE-EE63-90F9DF89516E">
+<createdBy>b42775</createdBy>
+<createdTime>2018-04-24 06:26:07 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserId" id="D31C30EE-8742-2AA3-A4B2-FF5DFAC89C87">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-30 06:39:42 UTC</createdTime>
+<generatorID>613E70AD-E8B2-55AB-2E18-F27C8302ECCE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<referedAttribute>636D7262-5167-468D-6378-A6237132469F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="939732CF-D34F-46B7-AA1D-3CD0DA2A24A7" name="Phone PK">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:42:03 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69EE688B-97D4-8DF3-BB4C-D0DBEA37F06C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

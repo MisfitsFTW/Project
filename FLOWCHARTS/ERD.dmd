@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERD" id="A17955EA-D049-14F3-AD8C-3D04CBE275BB" version="3.5">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:00:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A17955EA-D049-14F3-AD8C-3D04CBE275BB</designId>
+</OSDM_Design>

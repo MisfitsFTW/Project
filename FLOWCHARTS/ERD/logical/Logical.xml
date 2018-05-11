@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E874A670-DB81-5604-D7B9-08F64DA15937" mainViewID="21F90EF1-3D74-3A46-3047-7668C887292D">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:00:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

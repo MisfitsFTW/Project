@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2644833D-6E97-F147-04D9-51F0DD118426" name="CART">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:45:19 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PhoneId" id="5452D87C-83C2-240F-194F-0735EB4DED70">
+<createdBy>b42775</createdBy>
+<createdTime>2018-04-19 12:49:10 UTC</createdTime>
+<generatorID>B2C66605-5BA3-868D-3E93-F4629872DF7B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<referedAttribute>69EE688B-97D4-8DF3-BB4C-D0DBEA37F06C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserId" id="905930C7-80AE-DDE0-E981-9F5AF8C2310E">
+<createdBy>b42775</createdBy>
+<createdTime>2018-04-19 12:49:40 UTC</createdTime>
+<generatorID>0C316200-0B6C-DB1E-6447-C3EEF2CAE44F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<referedAttribute>636D7262-5167-468D-6378-A6237132469F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBC32F3D-C2E4-A3BA-7073-4217BB28457C" name="CART PK">
+<createdBy>GAMING BEAST</createdBy>
+<createdTime>2018-04-17 13:51:58 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="28933C5A-96B4-7354-A3BC-631CE8F71B22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5452D87C-83C2-240F-194F-0735EB4DED70</attributeRef>
+<attributeRef>905930C7-80AE-DDE0-E981-9F5AF8C2310E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
